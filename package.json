@@ -14,10 +14,7 @@
   "version": "0.0.1",
   "main": "dist/bootstrap-class-props.js",
   "dependencies": {
-    "react": "^15.5.4",
-    "react-bootstrap": "^0.31.0",
-    "react-class-props": "^0.0.2",
-    "react-dom": "^15.5.4"
+    "react-class-props": "^0.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
