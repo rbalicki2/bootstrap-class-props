@@ -13,15 +13,23 @@ export default addBootstrapClassProps(SomeExistingComponent);
 
 ### With components defined in the file
 ```
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import addBootstrapClassProps from 'bootstrap-class-props';
 
 @addBootstrapClassProps
-export default class MyComponent extends Component {}
+export default class MyComponent extends Component {
+  static propTypes = {
+    className: PropTypes.string, // make sure your component accepts a className propType
+  };
+}
 ```
 
 Now, `MyComponent` and `SomeExistingComponent` have props like `bgSuccess`, etc. These props, if present and truthy,
 add the appropriate className to the component.
+
+## Help! It's not working with a particular component
+
+Make sure the component accepts a `className` propType!
 
 ## Full list of props and utility classes
 
