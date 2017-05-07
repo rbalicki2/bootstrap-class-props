@@ -7,14 +7,14 @@
       "react"
     ]
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/rbalicki2/bootstrap-class-props"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbalicki2/bootstrap-class-props"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/bootstrap-class-props.js",
   "dependencies": {
-    "react-class-props": "^0.0.2"
+    "react-class-props": "^0.0.4"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
