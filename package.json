@@ -14,7 +14,7 @@
   "version": "0.0.3",
   "main": "dist/bootstrap-class-props.js",
   "dependencies": {
-    "react-class-props": "^0.0.4"
+    "react-class-props": "git://github.com/rbalicki2/react-class-props.git#use-the-prop-types-package"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
