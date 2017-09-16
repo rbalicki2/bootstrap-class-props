@@ -11,10 +11,10 @@
     "type": "git",
     "url": "https://github.com/rbalicki2/bootstrap-class-props"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/bootstrap-class-props.js",
   "dependencies": {
-    "react-class-props": "^0.0.4"
+    "react-class-props": "^0.0.5"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
